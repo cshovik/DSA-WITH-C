@@ -36,3 +36,31 @@ int main(){
     
     return 0;
     } 
+
+
+// ********************************************************************************* strcpy ****************************************************************
+ //create multiple structure variables with different values, using just one structure:
+//for array type with object select strcpy have to use unless it will shhow error
+ #include<stdio.h>
+
+struct myStructure {
+  int myNum;
+  char myLetter;
+  char myString[30]; // String
+};
+
+int main() {
+  struct myStructure s1;
+  
+  s1.myNum = 13;
+  s1.myLetter= 'B';
+  // Assign a value to the string using the strcpy function
+  strcpy(s1.myString, "Some text");
+
+  // Print the value
+  printf("My Num: %d \n", s1.myNum);
+  printf("My Letter: %c \n", s1.myLetter);
+  printf("My string: %s \n", s1.myString);
+
+  return 0;
+}
