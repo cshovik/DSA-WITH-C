@@ -28,7 +28,7 @@ int IndInsertion(int arr[],int size,int element, int capacity, int index){
 //index= where we want to insert
 int main(){
   int arr[100]={7,8,12,27,88};
-  int size = 101,element,index; //using 5 space among 100 space
+  int size = 5,element,index; //using 5 space among 100 space
   display(arr,size);
   printf("Enter element which you want  to insert ");
   scanf("%d",&element);
