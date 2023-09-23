@@ -30,7 +30,18 @@ int main(){ <br>
 
 ![image](https://github.com/cshovik/DSA-WITH-C/assets/113230439/033a51a5-f21f-4678-a3b8-8cabbd09d8b4)
 
+<h2>Peek (Stack ADT)</h2>
+int peek(struct stack *sp, int i){ <br>
+    int arrayInd = sp->top -i +1; <br>
+    if(arrayInd <0){ <br>
+        printf("Not a valid position for stack\n"); <br>
+        return -1; <br>
+    }else{ <br>
+        return sp->arr[arrayInd]; <br>
+    } <br>
+}
 
+![image](https://github.com/cshovik/DSA-WITH-C/assets/113230439/fd1b187c-1c6e-4d40-8ad6-dcbf3506c3e8)
 
 
 
