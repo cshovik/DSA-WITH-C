@@ -8,6 +8,7 @@
 <h1>Introduction to Stack </h1>
 <h2>Application of Stack</h2>
 1) Used in Function Call
+<br>
 2)Infix to Postfix conversion
 3) Parenthasis matching and more
 
