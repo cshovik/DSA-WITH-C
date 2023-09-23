@@ -27,6 +27,7 @@ int main(){ <br>
     S.top = -1; <br>
     S.arr = (int*)malloc(S.size*sizeof(int)); <br>
 }
+
 ![image](https://github.com/cshovik/DSA-WITH-C/assets/113230439/b4461275-f9e0-44ee-b344-c9cb4fc34f17)
 
 
