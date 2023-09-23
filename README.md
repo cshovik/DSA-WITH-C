@@ -15,6 +15,19 @@
 
 ![image](https://github.com/cshovik/DSA-WITH-C/assets/113230439/d6cbcfec-f059-49ed-a23e-2e36e068353e)
 
+<h1>Stack using Array</h1>
+struct stack{
+    int size;
+    int top;
+    int* arr;
+}
+int main(){
+  struct stack S;
+    S.size = 80;
+    S.top = -1;
+    S.arr = (int*)malloc(S.size*sizeof(int));
+}
+
 
 
 
