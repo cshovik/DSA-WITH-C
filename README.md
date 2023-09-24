@@ -30,7 +30,7 @@ int main(){ <br>
 
 ![image](https://github.com/cshovik/DSA-WITH-C/assets/113230439/033a51a5-f21f-4678-a3b8-8cabbd09d8b4)
 
-<h2>Peek (Stack ADT)</h2>
+<h2>Peek (Stack ADT) using array</h2>
 int peek(struct stack *sp, int i){ <br>
     int arrayInd = sp->top -i +1; <br>
     if(arrayInd <0){ <br>
@@ -46,6 +46,11 @@ int peek(struct stack *sp, int i){ <br>
 <h1>Stack using Linked List</h1>
 
 ![image](https://github.com/cshovik/DSA-WITH-C/assets/113230439/df7e6719-ec4b-4c18-8b55-bbcf7fda3a9b)
+
+<h2>peek (stack ADT) using list</h2>
+
+![image](https://github.com/cshovik/DSA-WITH-C/assets/113230439/f01ed385-cb57-4fe8-9c7e-37fa3ea786fd)
+
 
 
 
