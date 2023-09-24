@@ -43,6 +43,11 @@ int peek(struct stack *sp, int i){ <br>
 
 ![image](https://github.com/cshovik/DSA-WITH-C/assets/113230439/fd1b187c-1c6e-4d40-8ad6-dcbf3506c3e8)
 
+<h1>Stack using Linked List</h1>
+
+![image](https://github.com/cshovik/DSA-WITH-C/assets/113230439/4714881d-d8d5-4b97-a659-b723c09dfca9)
+
+
 
 
 
